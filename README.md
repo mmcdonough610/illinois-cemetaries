@@ -1,11 +1,11 @@
 
 # Project title
 
-Across the README.md file, please answer the who, what, when, where, why, and how of the map making process
+Land Cover Context of Illinois Cemeteries
 
 ## Project Contents
 
-If you wanted to include a table of contents to sections, and then links to each section.
+
 
 - [Data Source](#data-source)
 - [Project Background](#project-background)
@@ -29,7 +29,7 @@ If you are interested in [other Markdown formatting options](https://www.markdow
 
 ### Purpose
 
-Please write about the map purpose using complete sentences. 
+Understanding cemetery locations is important for a number of reasons in forensic anthropology. Knowing where a cemetery is located can help with access, determine if the cemetery is in danger of being destroyed by the environment it resides, or if the area was abandoned. A map like this may also help the contrustion of future cemeteries as if an area is at risk for sinking or another type of environmental hazard, it is less likely another cemetery will be built in that area. 
 
 ### Mapmaking Process
 
@@ -46,7 +46,7 @@ You can also use some lists, and here's some formatting ideas.
 
 ### Map summary
 
-What are the key findings to take from your map and the overall mapmaking process?
+This map illustrates every known cemetery in the state of Illinois and the county that they reside as well as the land cover type that the cemetery was built in. 
 
 ## Final Project Link
 
