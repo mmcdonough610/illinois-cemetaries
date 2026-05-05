@@ -9,7 +9,10 @@ If you wanted to include a table of contents to sections, and then links to each
 
 - [Data Source](#data-source)
 - [Project Background](#project-background)
-- ....
+- [Purpose](#purpose)
+- [Mapmaking Process](#mapmaking-process)
+- [Map Summary](#map-summary)
+- [Final Project Link](#final-project-link)
 
 ***
 
