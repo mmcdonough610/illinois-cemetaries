@@ -32,7 +32,7 @@ Land Cover data can be found here:
 
 ### Project Background
 
-If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
+For this map, the goal was to encompass everything I had learned in the course as well as incorporate topics I've learned in my other courses. The land cover classification is derived from a remote sensing fundamentals course and the cemeteries is a main focus within forensic anthropology.
 
 ### Purpose
 
