@@ -19,13 +19,13 @@
 ### Data Source
 
 State and County data can be found here:
-[Link to data source](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
+[Link to U.S. Census Bureau](https://www.census.gov/cgi-bin/geo/shapefiles/index.php)
 
 Cemetery data can be found here: 
-[Link to data source](https://clearinghouse.isgs.illinois.edu/data/infrastructure/us-geographic-names-information-system-gnis-illinois)
+[Link to Illinois Geospatial Data Clearinghouse](https://clearinghouse.isgs.illinois.edu/data/infrastructure/us-geographic-names-information-system-gnis-illinois)
 
 Land Cover data can be found here: 
-[Link to data source](https://www.mrlc.gov/data)
+[Link to Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/data)
 
 * Initial Data projection: EPSG:4269 - NAD83
 * Final Map projection: EPSG:26971 - NAD83/Illinois East
