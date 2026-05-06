@@ -27,8 +27,8 @@ Cemetery data can be found here:
 Land Cover data can be found here: 
 [Link to Multi-Resolution Land Characteristics Consortium](https://www.mrlc.gov/data)
 
-* <strong>Initial Data projection:<strong> EPSG:4269 - NAD83
-* <strong>Final Map projection:<strong> EPSG:26971 - NAD83/Illinois East
+* Initial Data projection: EPSG:4269 - NAD83
+* Final Map projection: EPSG:26971 - NAD83/Illinois East
 
 ### Project Background
 
