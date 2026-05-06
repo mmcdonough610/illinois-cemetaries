@@ -53,7 +53,7 @@ You can also use some lists, and here's some formatting ideas.
 
 ### Map summary
 
-This map illustrates every known cemetery in the state of Illinois and the county that they reside as well as the land cover type that the cemetery was built in. 
+This map illustrates every known cemetery in the state of Illinois and the county that they reside as well as the land cover type that the cemetery was built in. With the second cropped version of the map focusing on the Northeastern part of Illinois as Cook and Will county, two of the largest counties, are in this area, which equated to a lot of marked cemeteries in the "Developed" class for the land cover classification. With that, each land cover type is expressed in a color per the MRLC and the cemeteries are also expressed in a color that relates them to one of the land cover classifications. The values this comes from is within the attribute table of the NLCD layer. For example, if an area has a 'pixel value' of 11, then the area is considered 'Open Water'. So, if a cemetery were in water, the cemetery dot would be orange. This is the same for all cemeteries and cover types. 
 
 ## Final Project Link
 
