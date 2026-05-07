@@ -56,6 +56,7 @@ Below are the steps taken to create the map that is linked in this file:
     **WHEN "sample_1" IN (90,95) THEN 'Wetland'**
     **ELSE 'Other'**
 **END**
+6. 
 
 
 ### Map summary
