@@ -5,7 +5,7 @@
 <head>
 	<meta charset=utf-8 />
 	<!-- Below is the title of the document -->
-	<title>Template Example Edit</title>
+	<title>Land Cover Context of Illinois Cemeteries</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
@@ -92,23 +92,32 @@
 		<!-- The division element contains an image element -->
 		<div id='map'>
 			<!-- The image element uses the the 'src' property to show an image on the page. -->
-			<img src="images/thenameofyourfile.jpg" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
+			<img src="maps/IllnoisCemeteryLandCover-1200.jpg" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
 		</div>
-		<!-- <a href="">Link to high resolution version</a> -->
+		<a href="maps/IllinoisCemeteryLandCover-8000.jpg">Link to high resolution version</a>
 
 		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
-		<h1>Title on page</h1>
+		<h1>Land Cover Context of Illinois Cemeteries</h1>
 
 		<!-- Add your information below -->
-		<h2>Authored by: New Maps Plus</h2>
-		<p>Describe how this map was made, data sources, and other important metadata. Include link(s) to the data
-			source: <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">The National Map
-				Small-Scale website</a>. </p>
-
+		<h2>Map made by: Megan McDonough</h2>
+		<p>This map was made using QGIS 4.0.0. It has two images, one of the entire state of Illinois, and the second is focused on the Northeastern part of the state. 
+			It shows every Illinois cemetery and its associated land cover type. These types are Agriculture, Developed, Forest, Other, Shrub/Grass, Water, and Wetland.
+			This was accomplished by filtering the attribute tables through the Query Builder, for both the NLCD layer and the cemetery layer. To get the Illinois outlines it was 'Name' = "Illinois", whereas for the 
+			cemeteries it was 'FEATURE_NA'="Cemetery". Once filtered, connecting the two layers was next. This was done through a longer connection in the Query Builder.
+			These were a series of "When and Then" statements connecting values in the NLCD layer to the cemetery layer. 
+			After the Query was completed, the new label layer was changed to a Categorized color system, making the cemetery layer different colors for what land cover classification they were.
+			
+			<h2>Links to the data used:</h2>
+			Cemetery Data: <a href="https://clearinghouse.isgs.illinois.edu/data/infrastructure/us-geographic-names-information-system-gnis-illinois" target="blank">Illinois Geospatial Data Clearinghouse</a>
+			<h2></h2>
+			Illinois State & Counties Data <a href="https://nationalmap.gov/small_scale/atlasftp.html" target="blank">U.S. Census Bureau</a>. </p>
+			<h2></h2>
+			Land Cover Classification Data: <a href="https://www.mrlc.gov/data" target="blank">MRLC Land Cover Classifications</a>
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
-			<li>See my projects on GitHub: <a href="https://github.com/newmapsplus">New Maps Plus</a></li>
+			<li>See my projects on GitHub: <a href="https://github.com/mmcdonough610/illinois-cemetaries">Repository Link for Illinois Cemetery Map Data</a></li>
 		</ul>
 		<hr>
 		<a href="https://uky-gis.github.io"><img width="20%"
