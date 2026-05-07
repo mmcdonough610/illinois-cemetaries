@@ -40,16 +40,12 @@ Understanding cemetery locations is important for a number of reasons in forensi
 
 ### Mapmaking Process
 
-Example of in process map ![in process image](filepath)
+Below are the steps taken to create the map that is linked in this file:
 
-You can describe the mapmapking process in this section, including images where it helps to describe the process.
-
-You can also use some lists, and here's some formatting ideas.
-
-1. **Example bold**
-2. *Example italics*
-3. 
-4. 
+1. Find and download data from sources listed above.
+2. Within QGIS, upload each of the data files from above. The U.S. Census Bureau files were uploaded as vector layer, the IGDC data was also a vector layer, while the MRLC NLCD was a raster layer. 
+3. Filter the NLCD layer to just be Illinois using the 'NAME'="Illinois" query. To obtain proper placement of Illinois cemeteries, in the IGDS layer, using the query builder use 'FEATURE_NA'="Cemetery", this is the same process of the Bureau layers. 
+4. Once filtered, 
 
 ### Map summary
 
