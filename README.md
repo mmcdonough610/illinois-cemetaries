@@ -56,7 +56,8 @@ Below are the steps taken to create the map that is linked in this file:
     **WHEN "sample_1" IN (90,95) THEN 'Wetland'**
     **ELSE 'Other'**
 **END**
-6. 
+6. After the values are connected, they were color-coordinated using the Symbology tab and changing the symbol type to Categorized.
+7. Map is completed! 
 
 
 ### Map summary
