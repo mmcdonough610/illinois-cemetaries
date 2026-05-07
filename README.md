@@ -47,7 +47,7 @@ Below are the steps taken to create the map that is linked in this file:
 3. Filter the NLCD layer to just be Illinois using the 'NAME'="Illinois" query. To obtain proper placement of Illinois cemeteries, in the IGDS layer, using the query builder use 'FEATURE_NA'="Cemetery", this is the same process for the Bureau layers. 
 4. Once filtered, the Illinois state outline and county outlines were made transparent with just a border. The NLCD layer was kept the same colors as the original map. The cemeteries needed to be edited.
 5. For the cemetery layer, labels needed to be created to show the land cover type of the cemetery. To do this, the attribute table needed to be edited through the Field Calculator. In the calculator's query builder the following was added to connect the land cover types to the cemetery locations:
-CASE
+**CASE**
     WHEN "sample_1" = 11 THEN 'Water'
     WHEN "sample_1" IN (21,22,23,24) THEN 'Developed'
     WHEN "sample_1" IN (41,42,43) THEN 'Forest'
@@ -55,7 +55,7 @@ CASE
     WHEN "sample_1" IN (81,82) THEN 'Agriculture'
     WHEN "sample_1" IN (90,95) THEN 'Wetland'
     ELSE 'Other'
-END
+**END**
 
 
 ### Map summary
